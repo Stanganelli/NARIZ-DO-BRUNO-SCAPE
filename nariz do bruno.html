@@ -184,7 +184,7 @@
           }
           if (closestToRightSideEnemy.x + 
               closestToRightSideEnemy.width > game.canvas.width) 
-            game.enemyDirection = -1;       
+          {game.enemyDirection = -1;       
             for (var i = 0; i < game.enemies.length; i++) {
               game.enemies[i].update(0, game.enemyStep);
             }
